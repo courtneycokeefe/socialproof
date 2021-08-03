@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+    font-size:15px;
+}
+
+body{
+    background-image: url('../Front End Mentor/images/bg-pattern-top-desktop.svg'), url('../Front End Mentor/images/bg-pattern-bottom-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: 0px 9px, 300px 100px;
+    width: 100vw;
+}
+
+.main{
+  margin: 0px 100px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0px;
+}
+
+.users{
+    max-width: 40%;
+}
+
+.users h4{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 100;
+    line-height: 20px;
+    color: hsl(300, 43%, 22%);
+
+}
+
+.users h1{
+    color: hsl(300, 43%, 22%);
+    font-size: 3rem;
+}
+
+.ratings{
+    color:hsl(300, 43%, 22%);
+    width: 45%;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ratings span{
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.reviewsbody1{
+    display: flex;
+    justify-content: flex-start;
+    width: auto;
+}
+
+.reviewsbody2{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.reviewsbody3{
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+}
+
+.reviews{
+    background-color: hsl(300, 24%, 96%);
+    padding: 18px;
+    min-width: 70%;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.stars img{
+    margin: 0px 5px;
+}
+
+
+.guru{
+    background-color: hsl(300, 24%, 96%);
+    padding: 18px;
+    min-width: 70%;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.besttech{
+    background-color: hsl(300, 24%, 96%);
+    padding: 18px;
+    min-width: 70%;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+}
+
+.bottom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.card-1, .card-2, .card-3{
+    background-color: hsl(300, 43%, 22%);
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+.card-1 p, .card-2 p, .card-3 p{
+    font-size: 12px;
+    color: white;
+    line-height: 2;
+}
+
+.photo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.photo img{
+    border-radius: 50%;
+    width: 15%;
+    margin-right: 20px;
+}
+
+.photo h3{
+    color: white;
+    font-size: 12px;
+}
+
+.photo span{
+    color: hsl(333, 80%, 67%);
+    font-size: 12px;
+}
+
+.container-1{
+    height: 250px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.container-2{
+    height: 250px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container-3{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+@media(max-width: 1262px){
+.bottom{
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+.container-1, .container-2, .container-3{
+    width: auto;
+    align-items: center;
+}
+}
+
+@media(max-width: 790px){
+.top{
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.ratings{
+    width: 100%;
+}
+.users{
+    min-width: 265px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.users h1{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.users h4{
+    text-align: center;
+}
+
+.reviewsbody1, .reviewsbody2, .reviewsbody3{
+    justify-content: center;
+}
+
+.reviews, .guru, .besttech{
+    flex-direction: column;
+    width: 75%;
+    min-width: 300px;
+
+}
+
+.fivestar span{
+    margin-left: 0px;
+}
+}
+
+@media(max-width: 375px){
+    .main{
+        margin: 0px 0px;
+    }
+
+    .users{
+        margin: 20px;
+    }
+
+    .body{
+        background-image: url('../Front End Mentor/images/bg-pattern-top-mobile.svg'), url('../Front End Mentor/images/bg-pattern-bottom-mobile.svg');
+    }
+
+    .card-1, .card-2, .card-3{
+        max-width: 315px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
